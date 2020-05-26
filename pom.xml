@@ -20,6 +20,13 @@
             <artifactId>zookeeper</artifactId>
             <version>3.5.3-beta</version>
         </dependency>
+
+        <!-- 工具包 -->
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>5.2.5</version>
+        </dependency>
     </dependencies>
 
 

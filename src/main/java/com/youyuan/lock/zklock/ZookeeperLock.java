@@ -23,7 +23,7 @@ import java.util.concurrent.locks.Lock;
 public class ZookeeperLock implements Lock {
 
     //服务器地址
-    private static String HOSTNAME="192.168.123.252:2181";
+    private static String HOSTNAME="127.0.0.1:2181";
 
     //超时时间 单位毫秒
     private static Integer SESSION_TIMEOUT=3000;
